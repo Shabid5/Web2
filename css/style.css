@@ -38,6 +38,7 @@ img {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment:initial;
 }
 
 .container {
@@ -187,6 +188,9 @@ img {
     background-color: #f1eee9;
     transform: translateX(-50%);
     transition: .5s;
+}
+.service:hover{
+    cursor: pointer;
 }
 
 .service:hover h3 {
@@ -499,6 +503,9 @@ img {
 .project-button2 button:hover h3 {
     color: white;
 }
+.project-marge:hover{
+    cursor: pointer;
+}
 
 /* project part */
 
@@ -735,6 +742,9 @@ img {
     padding-bottom: 20px;
     line-height: 1.5em;
 }
+.rpic-part:hover{
+    cursor: pointer;
+}
 
 .rpic-part:hover .texts h3 {
     color: #c7b299;
@@ -814,6 +824,7 @@ img {
 
 .arrows i:hover {
     color: #cab69f;
+    cursor: pointer;
 }
 
 /* recent part */
@@ -940,6 +951,9 @@ img {
 
 .one .z:hover span {
     color: #c7b299;
+}
+.one .z:hover{
+    cursor: pointer;
 }
 
 .r h3 {
